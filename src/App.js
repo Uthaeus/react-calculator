@@ -1,10 +1,14 @@
-import logo from './logo.svg';
+
+import Keypad from './components/Keypad';
+import Display from './components/Display';
+
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      
+    <div>
+      <Display />
+      <Keypad />
     </div>
   );
 }
